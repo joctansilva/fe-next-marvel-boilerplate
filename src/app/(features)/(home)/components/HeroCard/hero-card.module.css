@@ -1,0 +1,51 @@
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  width: 204px;
+  height: 290px;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.cardContent:hover {
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(217, 217, 217, 1);
+  -moz-box-shadow: 4px 4px 5px 0px rgba(217, 217, 217, 1);
+  box-shadow: 4px 4px 5px 0px rgba(217, 217, 217, 1);
+}
+
+.heroData {
+  display: flex;
+  width: 100%;
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  min-height: 200px;
+  max-height: 394px;
+  border-bottom: 2px solid #e92429;
+  overflow: hidden;
+}
+
+.image {
+  width: 99%;
+  display: flex;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.heroName {
+  color: #404040;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.heroNameContent {
+  display: flex;
+  width: 100%;
+  padding: 1rem 0rem;
+  text-decoration: none;
+}

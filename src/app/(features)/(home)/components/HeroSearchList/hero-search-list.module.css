@@ -1,0 +1,46 @@
+.searchList {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 120px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  gap: 32px;
+}
+
+.listContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.headerList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.heroAmount {
+  color: #b9b9b9;
+  font-weight: bold;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
